@@ -1,0 +1,19 @@
+fadein($color, $amount)
+  $r = red($color)
+  $g = green($color)
+  $b = blue($color)
+  $a = alpha($color)
+  $a += ($amount / 100)
+  rgba($r,$g,$b,$a)
+
+default-serif()
+  shorthand()
+  font-family serif
+
+default-sans()
+  shorthand()
+  font-family sans-serif
+
+default-mono()
+  shorthand()
+  font-family monospace
